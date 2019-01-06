@@ -4,6 +4,12 @@ html {
 	}
 }
 
+ol,
+ul,
+dl {
+	padding-left:rem(40);
+}
+
 .btn.disabled,
 .btn:disabled {
 	cursor: not-allowed;
