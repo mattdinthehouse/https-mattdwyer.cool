@@ -1,0 +1,10 @@
+html {
+	@media (max-width: 29.3125rem) { // rem(421) + map-get($spacers, 4)
+		font-size:calc(100vw / 29.3125);
+	}
+}
+
+.btn.disabled,
+.btn:disabled {
+	cursor: not-allowed;
+}
