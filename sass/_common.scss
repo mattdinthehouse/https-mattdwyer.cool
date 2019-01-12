@@ -14,3 +14,11 @@ dl {
 .btn:disabled {
 	cursor: not-allowed;
 }
+
+.figure {
+	display:block;
+
+	audio {
+		width:100%;
+	}
+}
